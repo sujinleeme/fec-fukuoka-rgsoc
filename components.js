@@ -15,8 +15,8 @@ export const Header = () =>
     <meta name='twitter:site' content='@sujinleeme' />
     <meta name='twitter:title' content='Rails Girls Summer of Code : 3 months journey of contributing to babel.js' />
     <meta name='twitter:description' content='Lightening Talk | Frontend Conference Fukuoka 2018' />
+    <meta name="twitter:image" content="https://sujinlee.me/content/images/2018/12/rgsoc-talk-cover.png" />
     <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Open+Sans" rel="stylesheet" /> 
-    <meta name="twitter:image" content="http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg" />
   </Head>
 
 export const Body = styled.div`
