@@ -12,7 +12,8 @@ export default {
   },
   h2: {
     fontSize: '1em',
-    marginTop: '2em'
+    marginTop: '2em',
+    textTransform: 'none',
   },
   p: {
     fontSize: '0.65em',

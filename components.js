@@ -10,11 +10,13 @@ const color = {
 
 export const Header = () =>
   <Head>
-  <title>Sujin Lee - frontend-conf.fukuoka </title>
-  <meta name='twitter:site' content='@sujinleeme' />
-  <meta name='twitter:title' content='Git! Push! What is it good for?' />
-  <meta name='twitter:description' content='Absolutely everything!' />
-  <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Open+Sans" rel="stylesheet" /> 
+    <title>Sujin Lee - frontend-conf.fukuoka </title>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name='twitter:site' content='@sujinleeme' />
+    <meta name='twitter:title' content='Rails Girls Summer of Code : 3 months journey of contributing to babel.js' />
+    <meta name='twitter:description' content='Lightening Talk | Frontend Conference Fukuoka 2018' />
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Open+Sans" rel="stylesheet" /> 
+    <meta name="twitter:image" content="http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg" />
   </Head>
 
 export const Body = styled.div`
