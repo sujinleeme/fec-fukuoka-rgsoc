@@ -15,12 +15,12 @@ export const Header = () =>
     <meta property="og:type"               content="article" />
     <meta property="og:title"              content="Rails Girls Summer of Code : 3 months journey of contributing to babel.js" />
     <meta property="og:description"        content="Lightening Talk | Frontend Conference Fukuoka 2018" />
-    <meta property="og:image"              content="https://sujinlee.me/content/images/2018/12/rgsoc-cover-lt.png" />
+    <meta property="og:image"              content="https://sujinlee.me/content/images/2018/12/fec-fukuoka-rgsoc.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name='twitter:site' content='@sujinleeme' />
     <meta name='twitter:title' content='Rails Girls Summer of Code : 3 months journey of contributing to babel.js' />
     <meta name='twitter:description' content='Lightening Talk | Frontend Conference Fukuoka 2018' />
-    <meta name="twitter:image" content="https://sujinlee.me/content/images/2018/12/rgsoc-talk-cover.png" />
+    <meta name="twitter:image" content="https://sujinlee.me/content/images/2018/12/fec-fukuoka-rgsoc.png" />
     <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Open+Sans" rel="stylesheet" /> 
   </Head>
 
