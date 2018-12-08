@@ -1,0 +1,174 @@
+export theme from './theme'
+import { Row, Column, CenterBody, TwitterBox, MoreInfo, TwitterEmbedDiv, ConfBrandBar, Header, BabelCompilerDiagram } from './components';
+import { Image } from 'mdx-deck'
+
+<Header />
+<ConfBrandBar />
+
+# Rails Girls Summer of Code
+# 3 months journey of 
+# contributing to babel.js 
+
+## Sujin Lee [@sujinleeme](https://twitter.com/sujinleeme)
+
+---
+###  Rails Girls Summer of Code (#RGSoC)
+* Award-winning global fellowship program aimed at bringing more diversity into Open Source. (only 11% of OSS contributors identify as women)
+* Contribute to an overall of 67 Open Source projects such as Babel, Bundler, Rails, Discourse, Tessel, NextCloud and more.
+* Make a team with OSS maintainers/mentors, RGSoC supervisor local coaches and students working together.
+* Get more info from https://railsgirlssummerofcode.org/
+
+---
+import TweetEmbed from 'react-tweet-embed';
+
+<TwitterBox>
+  <TweetEmbed id='1019994985364508674' />
+<CenterBody>
+
+<div>
+
+### Team Sunshine ☀️
+
+More Read: https://sujinlee.me/rgsoc-prologue/
+</div>
+
+* Members : [Gyujin Cho](https://twitter.com/MarinaGJCho), [Sujin Lee](https://twitter.com/sujinleeme)
+* Supervisor :
+[Ana Sofia Pinho](https://twitter.com/AnaSofiaPinho)
+* Mentors : 
+[Henry Zhu](https://twitter.com/left_pad), [Brian Ng](https://twitter.com/existentialism/), [Logan Smyth](https://twitter.com/loganfsmyth)
+* Local Coaches :
+[Byungjune Yoon](https://twitter.com/YoonByungjune), [Hyeonsu Lee](https://twitter.com/incleaf), [Seongjun Kim](https://twitter.com/wagurano), [Dohyung Ahn](https://twitter.com/adhrinae)
+
+</CenterBody>
+</TwitterBox>
+
+---
+### What is
+
+<img src="https://cdn-images-1.medium.com/max/1600/1*XmHUL5DeySv_dGmvbPqdDQ.png" width="500px"/>
+
+https://babeljs.io/
+
+"A JavaScript compiler a toolchain that is mainly used to convert ES 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments". - Babel Website
+
+"A compiler, an open source project community, part of the JavaScript community." - Henry Zhu
+
+---
+<TwitterBox>
+<TweetEmbed id='864570721921634304' 
+  options={{
+    hide_thread:true
+  }}
+/>
+</TwitterBox>
+
+---
+### Babel as a compiler
+
+<BabelCompilerDiagram />
+
+<MoreInfo>
+
+##### 📚 More Info
+* Diagram - A except from Henry Zhu's Keynote ['So how does babel even work'](https://www.henryzoo.com/so-how-does-babel-even-work/assets/player/KeynoteDHTMLPlayer.html#25)
+* [Henry Zhu - So how does Babel even work?](https://www.youtube.com/watch?v=fntd0sPMOtQ)
+* [Babel Handbook](https://github.com/jamiebuilds/babel-handbook) 
+
+</MoreInfo>
+
+---
+### What's Good for Babel contribution?
+
+* A open-sourced JavaScript compiler that tech leading companies and countless others adopt to ship software for the web.
+* A great position to be an educational tool for programmers so they can continue to learn how JavaScript works.
+* The warmth of welcome to Babel open source community.
+* Learn many other concepts such as ASTs, compilers, language specification, and more.
+
+---
+### 🤷‍♀️ How to start contribution?
+
+---
+### 👩‍💻 Read Babel Road Map
+
+* Hook into [CodeSandBox](https://codesandbox.io/)
+* [Better Debuggability](https://babeljs.io/docs/en/roadmap#better-debuggability)
+* [Better REPL](https://babeljs.io/docs/en/roadmap#better-repl)
+* [ASTExplorer](https://babeljs.io/docs/en/roadmap#astexplorer)
+* [Compiled Output Stats](https://babeljs.io/docs/en/roadmap#compiled-output-stats)
+
+---
+### Repl, 'A playground for Babel'
+https://babeljs.io/repl
+
+<img width="600px" src="https://sujinlee.me/content/images/2018/08/repl-example.png" />
+
+* Integrated in the official documentation website built with [Docusaurus](https://docusaurus.io)
+* Using pure react.js(flow) : https://github.com/babel/website/tree/master/js/repl
+
+---
+### Our works for Repl
+* Show a different view of complied code: AST, output code, and time travel. 
+* Learning existing codebase of references: [ASTExplorer](https://astexplorer.net/), [Redux Devtools](https://github.com/reduxjs/redux-devtools), [CodeSandbox](https://codesandbox.io/) and JSON tree view libraries.
+* Some UI Improvements
+
+---
+### babel-time-travel
+Empower to be able to make changes, even small ones!
+
+<img width="800px" src="https://sujinlee.me/content/images/2018/12/babel-time-travel.boopathi.in.png"/>
+
+* Time travel slides through babel transformations one by one created by [Boopathi Rajaa](https://twitter.com/heisenbugger)
+* Change babili to minify in available presets ([#3](https://github.com/babel/babel-time-travel/pull/3))
+* Show the size in bytes of the code ([#4](https://github.com/babel/babel-time-travel/pull/4))
+
+---
+#### 🎉 The first PR: Time Travel 
+
+<TwitterBox>
+<TweetEmbed id='1032017017300295680' />
+<img height="500px" src="https://user-images.githubusercontent.com/6011401/43300214-dc86205e-9198-11e8-8449-743b9a0ba074.png" />
+</TwitterBox>
+
+---
+#### Now, AST Panel is ready to merge!
+Mock [ASTExplorer](https://astexplorer.net/) and move to babel
+
+https://github.com/sujinleeme/babel-website/blob/ASTOptions/js/repl/ASTPanel.js
+
+<TweetEmbed id='1039870600397905921' />
+
+---
+##### Code reviews by local coaches
+
+http://github.com/sujinleeme/babel-website/pull/1
+
+<img width="800px" src='https://sujinlee.me/content/images/2018/12/code-review-rgsoc.png' />
+
+---
+##### One challenge: A team from 6 different time zones
+
+<TweetEmbed id='1017263419802521600' />
+
+---
+### Then, How to get involved in OSS?
+
+#### 巨人の肩の上にのる
+
+**If I have seen further, it is by standing upon the shoulders of giants. - Isaac Newton**
+
+<MoreInfo>
+
+##### 📚 More Info
+* [How to contribute Open Source](https://opensource.guide/ko/how-to-contribute/)
+
+</MoreInfo>
+
+---
+### ありがとうございました
+
+<ConfBrandBar />
+
+## Sujin Lee [@sujinleeme](https://twitter.com/sujinleeme)
+
+
