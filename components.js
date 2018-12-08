@@ -47,7 +47,7 @@ export const Code = styled.div`
 `;
 
 export const ConfBrandBar = () =>
-  <TitleBox>Lightning Talk | Frontend Conference Fukuoka 2018</TitleBox>
+  <TitleBox>Lightening Talk | Frontend Conference Fukuoka 2018</TitleBox>
 
 const TitleBox = styled.div`
   width: 800px;
