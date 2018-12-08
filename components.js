@@ -15,7 +15,7 @@ export const Header = () =>
     <meta property="og:type"               content="article" />
     <meta property="og:title"              content="Rails Girls Summer of Code : 3 months journey of contributing to babel.js" />
     <meta property="og:description"        content="Lightening Talk | Frontend Conference Fukuoka 2018" />
-    <meta property="og:image"              content="https://sujinlee.me/content/images/2018/12/rgsoc-talk-cover.png" />
+    <meta property="og:image"              content="https://sujinlee.me/content/images/2018/12/rgsoc-cover-lt.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name='twitter:site' content='@sujinleeme' />
     <meta name='twitter:title' content='Rails Girls Summer of Code : 3 months journey of contributing to babel.js' />
