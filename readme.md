@@ -1,4 +1,4 @@
-# LT Talk : Rails Girls Summer of Code : 3 months journey of contributing to babel.js
+# ⚡️LT : Rails Girls Summer of Code : 3 months journey of contributing to babel.js
 
 - slides: http://sujinleeme.github.io/fec-fukuoka-rgsoc
 - Lightening Talk | Frontend Conference Fukuoka 2018 https://frontend-conf.fukuoka.jp/
@@ -24,4 +24,4 @@ Rails Girls Summer of Code(\*) の活動の一環で、6 月から Babel.js に�
 
 ---
 
-built with [mdx-deck](https://github.com/jxnblk/mdx-deck)
+* Built with [mdx-deck](https://github.com/jxnblk/mdx-deck)
